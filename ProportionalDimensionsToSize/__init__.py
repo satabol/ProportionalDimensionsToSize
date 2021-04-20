@@ -1,8 +1,8 @@
 bl_info = {
     "name": "ProportionalDimensionsToSize",
     "description" : "Proportional Dimensions to new size", 
-    "author": "satabol",
-    "version": (1,0,2),
+    "author": "satabol@yandex.ru",
+    "version": (1,0,4),
     "blender": (2,90,0),
     "location": "View3D",
     "category": "3D View",

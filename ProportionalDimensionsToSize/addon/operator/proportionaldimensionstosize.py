@@ -70,8 +70,8 @@ def register_maxsize():
     from bpy.utils import register_class
     for cls in classes:
         register_class(cls)
-    bpy.types.Object.pdimensions = FloatVectorProperty(name="pdimensions", description="Max size by axis X/Y/Z", get=get_pdimensions, set=set_pdimensions, subtype="XYZ_LENGTH")
-    bpy.types.Object.MaxSize = FloatProperty(name="Max Size", description="Max size of object", get=get_MaxSize, set=set_MaxSize, unit="LENGTH")
+    bpy.types.Object.pdimensions = FloatVectorProperty(name="pdimensions", description="Max size by axis X/Y/Z", get=get_pdimensions, set=set_pdimensions, subtype="XYZ_LENGTH", precision=3)
+    bpy.types.Object.MaxSize = FloatProperty(name="Max Size", description="Max size of object", get=get_MaxSize, set=set_MaxSize, unit="LENGTH", precision=3)
 
 def unregister_maxsize():
     from bpy.utils import unregister_class
