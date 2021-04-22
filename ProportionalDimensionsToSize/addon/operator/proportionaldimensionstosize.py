@@ -62,7 +62,7 @@ class PROPORTIONALDIMENSIONSTO_PT_MaxSize(bpy.types.Panel):
         layout = self.layout
         layout.column().prop(ob, 'pdimensions', text="Proportional Dimensions")
         layout.prop(ob, 'MaxSize')
-        layout.label(text="addon: Proporional Dimenstions")
+        layout.label(text="addon: Proportional Dimensions")
 
 classes = (PROPORTIONALDIMENSIONSTO_PT_MaxSize,)
 
